@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react'
 import { BrowserRouter } from 'react-router-dom'
 import { mockedBike } from 'mocks/Bike'
-import { SERVICE_FEE_PERCENTAGE } from './BikeDetails.contants'
-import { getServicesFee } from './BikeDetails.utils'
+import { SERVICE_FEE_PERCENTAGE } from '../../components/BookingOverview/BookingOverview.constants'
+import { getServicesFee } from '../../components/BookingOverview/BookingOverview.utils'
 import BikeDetails from './BikeDetails.component'
 
 describe('BikeDetails page', () => {
